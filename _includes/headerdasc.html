@@ -1,0 +1,96 @@
+<!-- 放在 <head> 中的样式 -->
+  <style>
+    .header-banner {
+      position: relative;
+      background-color: #6c757d;
+      color: #fff;
+      min-height: 340px;
+      padding: 2rem 0;
+      margin-bottom: 1rem;
+    }
+  
+    .header-banner .background-image {
+      position: absolute;
+      top: 0;
+      left: 5%;
+      width: 90%;
+      height: 100%;
+      background-image: url("/2026/assets/images/cover/melbourne3.jpeg");
+      background-size: cover;
+      background-position: center 60%;
+      background-repeat: no-repeat;
+      z-index: 0;
+    }
+  
+    .header-banner .background-image::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.2); /* 半透明遮罩 */
+      z-index: 1;
+    }
+  
+    .header-banner .container,
+    .header-banner .row,
+    .header-banner .col-12 {
+      position: relative;
+      z-index: 2;
+    }
+  
+    .header-banner h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 0 8px rgba(0, 100, 255, 0.8),
+               0 0 16px rgba(0, 100, 255, 0.5),
+               0 0 24px rgba(0, 100, 255, 0.3);
+  margin-bottom: 1rem;
+}
+
+.header-banner h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 6px rgba(0, 100, 255, 0.7),
+               0 0 12px rgba(0, 100, 255, 0.5),
+               0 0 18px rgba(0, 100, 255, 0.3);
+  margin-bottom: 0.75rem;
+}
+
+.header-banner h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 0 4px rgba(0, 100, 255, 0.6),
+               0 0 8px rgba(0, 100, 255, 0.4),
+               0 0 12px rgba(0, 100, 255, 0.2);
+  margin-bottom: 0.5rem;
+}
+  </style>
+  
+  <!-- 放在 <body> 中的 header 内容 -->
+  <header class="header-banner text-center">
+    <div class="background-image"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>
+            IEEE DASC 2026<br/>
+            </h1>
+          <h2>
+            The 24th IEEE International Conference on Dependable, Autonomic and Secure Computing<br/>
+(Hybrid: On-site/Online)
+<br/><br/>
+          </h2>
+          <h3>
+            November 9-13, 2026 - Melbourne, Australia<br/>
+            </h3>
+        </div>
+      </div>
+    </div>
+    <br>
+  </header>
+  
