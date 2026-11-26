@@ -1,0 +1,32 @@
+{% comment %}
+  Sponsor / supporter logos, shared by all five sidebars
+  (sidebar.html, sidebarcst.html, sidebardasc.html, sidebarpi.html, sidebarcbd.html).
+  Edit the logos here once and every site picks up the change.
+  Paths are built from site.baseurl (_config.yml), so they never point at
+  another year's site. Layout rules: .sponsor-logos in assets/css/_sass/custom.scss.
+{% endcomment %}
+<h4>Sponsored By</h4>
+<div class="sponsor-logos">
+  <a href="https://www.ieee.org/"><img src="{{ site.baseurl }}/assets/images/IEEE.png" alt="IEEE"/></a>
+  <a href="https://www.computer.org/"><img src="{{ site.baseurl }}/assets/images/ieeecs.jpg" alt="IEEE Computer Society"/></a>
+</div>
+<hr/>
+<h4>Supported By</h4>
+<div class="sponsor-logos">
+  <img src="{{ site.baseurl }}/assets/images/smclogo.jpg" alt="IEEE SMC TC on Cybermatics"/>
+  <img src="{{ site.baseurl }}/assets/images/swtclogo.jpg" alt="IEEE CIS Smart World TC"/>
+  <img src="{{ site.baseurl }}/assets/images/tcsclogo.jpg" alt="IEEE TCSC"/>
+  <img src="{{ site.baseurl }}/assets/images/HI-TC_FormalLogo_50.png" alt="IEEE Hyper Intelligence TC"/>
+</div>
+<hr/>
+{% comment %}
+  Hosted By: when the 2027 host logo is available, put the image in
+  assets/images/, move the block below out of this comment and set the
+  file name and alt text.
+
+  <h4>Hosted By</h4>
+  <div class="sponsor-logos">
+    <img src="{{ site.baseurl }}/assets/images/HOST-LOGO.png" alt="Host institution"/>
+  </div>
+  <hr/>
+{% endcomment %}

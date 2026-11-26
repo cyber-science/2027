@@ -12,3 +12,22 @@
 // .bg-primary{
 //     background-color: #1d4367 !important
 // }
+
+/* Sponsor / supporter logos in the sidebars (_includes/sponsors.html):
+   two logos per row, vertically centred; one per row when the column is narrow. */
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 280px;
+
+  a,
+  > img {
+    margin: 0 0.75rem 0.5rem 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

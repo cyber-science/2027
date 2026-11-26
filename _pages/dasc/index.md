@@ -14,8 +14,8 @@ permalink: /dasc/
 </p>
 
 <p style="text-align:justify">
-IEEE DASC 2027 will be held during August 23-27, 2027, in Dublin, Ireland, co-located with <a href="http://cyber-science.org/2027/cyberscitech/">IEEE CyberSciTech 2027</a>, 
-<a href="http://cyber-science.org/2027/picom/">IEEE PICom 2027</a>, and <a href="http://cyber-science.org/2027/cbdcom/">IEEE CBDCom 2027</a>. It aims to bring together computer scientists, industrial engineers, and researchers to discuss and exchange theoretical and implementation results, novel designs, work-in-progress, experience, case studies, and trend-setting ideas in the areas of dependability, security, trust, and/or autonomic computing, and autonomous systems.
+IEEE DASC 2027 will be held during August 23-27, 2027, in Dublin, Ireland, co-located with <a href="{{ site.baseurl }}/cyberscitech/">IEEE CyberSciTech 2027</a>, 
+<a href="{{ site.baseurl }}/picom/">IEEE PICom 2027</a>, and <a href="{{ site.baseurl }}/cbdcom/">IEEE CBDCom 2027</a>. It aims to bring together computer scientists, industrial engineers, and researchers to discuss and exchange theoretical and implementation results, novel designs, work-in-progress, experience, case studies, and trend-setting ideas in the areas of dependability, security, trust, and/or autonomic computing, and autonomous systems.
 </p>
 <p style="text-align:justify">
 <b>Topics of interest</b> include, but are not restricted to:
